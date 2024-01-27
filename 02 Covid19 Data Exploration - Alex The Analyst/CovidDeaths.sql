@@ -10,6 +10,7 @@ CREATE TABLE coviddeaths(
 	location VARCHAR(50),
 	infodate date,
 	population bigint,
+	total_cases int, 
 	new_cases int,
 	new_cases_smoothed numeric,
 	total_deaths int,
@@ -29,8 +30,7 @@ CREATE TABLE coviddeaths(
 	weekly_icu_admissions int,
 	weekly_icu_admissions_per_million numeric,
 	weekly_hosp_admissions int,
-	weekly_hosp_admissions_per_million numeric,
-	total_tests bigint
+	weekly_hosp_admissions_per_million numeric
 );
 
 -- View Table
