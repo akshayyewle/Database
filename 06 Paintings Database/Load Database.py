@@ -7,7 +7,7 @@ import regex as re
 # Database Connection Details
 PGSQL_Server = 'localhost:5432'  # Use Your Server Name
 PGSQL_Username = 'postgres'     # Use Your Username
-PGSQL_Password = '23poonam' # Use Your Password
+PGSQL_Password = '' # Use Your Password
 PGSQL_Database = 'paintings'
 
 # Create Database Connection
