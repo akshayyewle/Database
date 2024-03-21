@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "SQL Lite",
+            "database": "/Users/akshayyewle/Library/CloudStorage/OneDrive-Personal/06 Data Science & Analytics/Practice Projects/36 SQL Practice/DVD Practice Database R00 - 07 Apr 2023.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "PostgreSQL",
+            "username": "akshayyewle",
+            "database": "PostgreSQL 15/",
+            "password": ""
+        }
+    ]
+}

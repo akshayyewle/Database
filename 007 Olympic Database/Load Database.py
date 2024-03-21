@@ -7,8 +7,8 @@ import regex as re
 # Database Connection Details
 PGSQL_Server = 'localhost:5432'  # Use Your Server Name
 PGSQL_Username = 'postgres'     # Use Your Username
-PGSQL_Password = '' # Use Your Password
-PGSQL_Database = 'paintings'
+PGSQL_Password = os.getenv('PGAdmin_Password') # Use Your Password
+PGSQL_Database = 'olympics'
 
 # Create Database Connection
 connection_string = f'postgresql://{PGSQL_Username}:{PGSQL_Password}@{PGSQL_Server}/{PGSQL_Database}'
