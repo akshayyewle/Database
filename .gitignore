@@ -1,0 +1,10 @@
+
+# Ignore Directories
+/data/*
+/logs/*
+
+# Ignore Files
+*.log
+*.tmp
+*.env
+*.csv
